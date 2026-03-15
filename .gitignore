@@ -1,0 +1,11 @@
+# Το αρχείο με τα κλειδιά σου
+.env
+
+# Φάκελοι του PyCharm (ρυθμίσεις που δεν χρειάζονται οι άλλοι)
+.idea/
+
+# Python artifacts
+__pycache__/
+*.pyc
+venv/
+env/

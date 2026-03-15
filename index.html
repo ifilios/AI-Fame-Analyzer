@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI FAME ANALYZER</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+
+  <body>
+    <header class="app-header">
+      <h1>AI Fame Analyzer</h1>
+    </header>
+
+    <div class="chat-container">
+      <div class="chat-history">
+        <div id="welcomeScreen" class="welcome-screen">
+          <h2>Welcome to AI Fame Analyzer! 👋</h2>
+          <p>Try asking about a celebrity's:</p>
+          <ul>
+            <li>📸 Instagram followers</li>
+            <li>▶️ Youtube Stats</li>
+            <li>📈 Google Trends popularity</li>
+            <li>📖 Wikipedia page views</li>
+            <li>📰 Number of news mentions & top headlines</li>
+            <li>🧠 General facts and trivia</li>
+            <li>🌟 Fame Level — Overall celebrity status calculated from all metrics</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <input type="text" id="prompt" placeholder="Type your message..." />
+        <button id="askButton">Send</button>
+      </div>
+    </div>
+    
+    <script src="/static/script.js"></script>
+  </body>
+</html>
