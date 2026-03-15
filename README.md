@@ -115,4 +115,4 @@ The system automatically adjusts the weight distribution when data is missing.
 **Example:**
 If a celebrity does not have a YouTube channel, the **25% YouTube weight** is redistributed proportionally among the remaining metrics.
 
-> This prevents celebrities from receiving an artificially low **Fame Score** due to missing platforms.
+> This prevents celebrities from receiving an artificially low **Fame Score** due to missing platforms
